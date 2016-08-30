@@ -3,11 +3,11 @@ import time
 import pandas as pd 
 import numpy as np 
 
-from twitterAPI import getAPI
-from findSentiment import findSentiment
-from getTweets import getTweets
+from lykability.twitterAPI import getAPI
+from lykability.findSentiment import findSentiment
+from lykability.getTweets import getTweets
 
-class LikabilityAnalyzer(object):
+class analyzer(object):
 	"""Queries Twitter for tweets containing names given in csv file and uses empythy to give each name a likability score.
 
 	Attributes:
