@@ -18,6 +18,7 @@ from lykability import LikabilityAnalyzer
 filepath = 'name.csv'
 num_tweets = 100
 sentimentScore = LikabilityAnalyzer.analyzer(filepath,num_tweets)
+sentimentScore.score()
 ```
 - When prompted, enter in your Twitter API keys.  This will allow likability to access the Twitter API to query the tweets needed to complete the sentiment analysis.  
 - Wait for script to run to completion.  Please note, due to Twitter API Rate Limiting, querying more than 15 names will lead to longer wait times.  Please allow 1 minute per name for lists greater than 15 names.
