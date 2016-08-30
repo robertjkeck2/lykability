@@ -1,0 +1,6 @@
+nltk
+scikit-learn
+empythy
+tweepy
+pandas
+numpy
