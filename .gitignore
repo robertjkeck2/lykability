@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+27-sdist/*
+build/*
+dist/*
+*.egg-info
+_build/*
+_static/*
+_templates/*
+docs/_build/*
