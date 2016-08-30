@@ -12,12 +12,12 @@ To piggyback off of the empythy natural languare classifier package to analyze a
 - Determine how many recent tweets you'd like to query for each person.  This will be used in the script below as ```num_tweets```.
 - Make sure you have Twitter API keys and access tokens.  If you do not, go to [Twitter Apps](https://apps.twitter.com/), create an app, and find the required keys and tokens under Applications Settings -> Consumer Key (API Key) -> manage keys and access tokens.
 - Run Python 3 by typing ```python``` into the terminal.
-- Enter script below to run the LikabilityAnalyzer.
+- Enter script below to run the LikabilityAnalyzer module.
 ```
 from likability import LikabilityAnalyzer
 filepath = 'name.csv'
 num_tweets = 100
-sentimentScore = LikabilityAnalyzer(filepath,num_tweets)
+sentimentScore = LikabilityAnalyzer.analyzer(filepath,num_tweets)
 ```
 - When prompted, enter in your Twitter API keys.  This will allow likability to access the Twitter API to query the tweets needed to complete the sentiment analysis.  
 - Wait for script to run to completion.  Please note, due to Twitter API Rate Limiting, querying more than 15 names will lead to longer wait times.  Please allow 1 minute per name for lists greater than 15 names.
