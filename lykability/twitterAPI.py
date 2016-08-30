@@ -1,5 +1,6 @@
 import tweepy
-from twitterKeys import getKeys
+
+from lykability.twitterKeys import getKeys
  
 def getAPI():
 	"""Queries token and key from twitterKeys module to access Twitter API
@@ -8,8 +9,7 @@ def getAPI():
 		api (obj): Authenticated Tweepy api object 
 
 	"""
-
-	access_token, access_secret, consumer_key, consumer_secret = getKeys()
+	access_token, access_secret, consumer_key, consumer_secret = getKeys.keys()
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_secret)
 	api = tweepy.API(auth)
