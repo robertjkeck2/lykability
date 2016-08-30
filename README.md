@@ -7,14 +7,14 @@ To piggyback off of the empythy natural languare classifier package to analyze a
 
 ## Instructions
 - Open terminal.  Make sure you have ```python3``` and ```pip``` downloaded.
-- ```pip install likability```
+- ```pip install lykability```
 - Create a csv file with the names of the people you'd like to analyze for likability.  Name this file name.csv in the current directory.
 - Determine how many recent tweets you'd like to query for each person.  This will be used in the script below as ```num_tweets```.
 - Make sure you have Twitter API keys and access tokens.  If you do not, go to [Twitter Apps](https://apps.twitter.com/), create an app, and find the required keys and tokens under Applications Settings -> Consumer Key (API Key) -> manage keys and access tokens.
 - Run Python 3 by typing ```python``` into the terminal.
 - Enter script below to run the LikabilityAnalyzer module.
 ```
-from likability import LikabilityAnalyzer
+from lykability import LikabilityAnalyzer
 filepath = 'name.csv'
 num_tweets = 100
 sentimentScore = LikabilityAnalyzer.analyzer(filepath,num_tweets)
