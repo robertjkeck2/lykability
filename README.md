@@ -5,7 +5,7 @@
 To piggyback off of the empythy natural languare classifier package to analyze average sentiment of tweets related to a particular person to calculate a 'likability score' for that person.  Useful in tracking sentiment changes across a certain period of time, i.e. the likability score of a celebrity before and after a concert.
 
 
-Instructions
+## Instructions
 1. Open terminal.  Make sure you have ```python3``` and ```pip``` downloaded.
 2.```pip install likability```
 3. Create a csv file with the names of the people you'd like to analyze for likability.  Name this file name.csv in the current directory.
