@@ -21,7 +21,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='likability',
+    name='lykability',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -32,7 +32,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/robertjkeck2/likability',
+    url='https://github.com/robertjkeck2/lykability',
 
     # Author details
     author='John Keck',
@@ -72,7 +72,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=['likability'],
+    packages=['lykability'],
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
