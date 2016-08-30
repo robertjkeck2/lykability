@@ -15,7 +15,7 @@ To piggyback off of the empythy natural languare classifier package to analyze a
 - Enter script below to run the LikabilityAnalyzer.
 ```
 from likability import LikabilityAnalyzer
-filepath = name.csv
+filepath = 'name.csv'
 num_tweets = 100
 sentimentScore = LikabilityAnalyzer(filepath,num_tweets)
 ```
